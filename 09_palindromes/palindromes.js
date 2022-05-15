@@ -5,8 +5,6 @@ const palindromes = function (string) {
     let newString = filtered.join('');
     let reversedArray = filtered.reverse();
     let reversedString = reversedArray.join('');
-    console.log(newString);
-    console.log(reversedString);
     return newString === reversedString ? true : false;
 };
 
