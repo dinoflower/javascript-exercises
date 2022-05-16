@@ -13,7 +13,5 @@ const fibonacci = function(input) {
     }
 };
 
-//cute but holy shit try an array
-
 // Do not edit below this line
 module.exports = fibonacci;
